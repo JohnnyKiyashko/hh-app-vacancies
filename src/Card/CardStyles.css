@@ -1,0 +1,69 @@
+.card-header-item {
+  cursor: pointer;
+  color: #568db2;
+}
+
+.card-header-item:hover {
+  cursor: pointer;
+  color: rgb(202, 99, 99);
+}
+
+.card-item {
+  padding: 20px;
+  border: 1px solid #9ea4ade7;  
+}
+
+.card-header {
+ display: flex;
+}
+
+.card-publish-date {
+  font-size: 14px;
+}
+
+.card-header-info {
+  padding: 10px;
+  padding-left: 0;
+  font-size: 18px;
+  font-weight: bold;
+  flex-basis: 100%;
+}
+
+.card-salary {
+  padding: 10px; 
+  font-weight: bold;
+  flex: 0 0 auto;
+}
+
+.contacts-info {
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.contacts-info p{
+  margin: 10px 10px;
+  color:  #686868;
+}
+
+.card-skills-label {
+  background: #cdebff;
+  border-radius: 3px;
+  color: #568db2;
+  display: inline-block;
+  height: 26px;
+  line-height: 26px;
+  padding: 0 20px 0 20px;
+  position: relative;
+  margin: 0 10px 10px 0;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.card-company-info {
+  color: #686868;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 10px 0;
+}

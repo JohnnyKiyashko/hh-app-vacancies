@@ -1,0 +1,33 @@
+.pagination {
+  display: inline-block;
+  padding: 10px;
+}
+
+.pagination-button {
+  margin-left: -1px;
+  list-style-type: none;
+  border: 1px solid #9ea4ade7;  
+  cursor: pointer;
+  color: black;
+  float: left;
+  padding: 12px 16px;
+  background-color: transparent;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination-button:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.pagination-button.active {
+  background-color: #bfdbee;
+}
+
+.pagination-button.disabled {
+  color: rgb(182, 182, 182);
+  border: 1px solid rgb(182, 182, 182); 
+  pointer-events:none;
+}

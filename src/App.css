@@ -1,0 +1,31 @@
+.app-header {
+  background-color: #282c34;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.app-header span{
+  color: #568db2;
+}
+
+.search-input-container {
+  margin: 10px;
+  border: 1px solid #9ea4ade7; 
+}
+
+.search-input-wrapper {
+  display: inline-block;
+  padding: 20px;
+}
+
+.search-input-field {
+  box-sizing: border-box;
+  width: 250px;
+  height: 34px;
+  padding: 0 11px;
+  border: 1px solid #cbd1d4;
+  font-size: 14px;
+}

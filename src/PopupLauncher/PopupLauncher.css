@@ -1,0 +1,22 @@
+.modal-button { 
+  padding: 0 15px;
+  border: 1px solid #cbd1d4;
+  font-size: 14px;
+  font-family: inherit;
+  line-height: 34px;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.modal-button-clear {
+  margin-left: -1px
+}
+
+.modal-button:hover {
+  background-color: #ddd;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+
+
+  

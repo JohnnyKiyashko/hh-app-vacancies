@@ -1,0 +1,8 @@
+.card-list__li {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+.card-list__ul {
+    padding: 10px;
+}
